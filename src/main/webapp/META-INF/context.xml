@@ -1,0 +1,16 @@
+<Context>
+	<Resource
+		name="jdbc/OracleDB"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.driver.OracleDriver"
+		url="jdbc:oracle:thin:@127.0.0.1:1521:orcl"
+		username="scott"
+		password="tiger"
+		maxActive="500"
+		masIdle="100"
+		vaildationQuery="select 1 from dual"
+		testOnBorron="false"
+		poolPreparedStatements="true"/>
+		
+</Context>
